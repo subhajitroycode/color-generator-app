@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Color Generator App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Color Generator App is a React project that allows you to generate shades and tints of a chosen color. You can either input a specific hex value of a color or use the built-in color picker to select your desired color. The app then generates a range of shades and tints based on the selected color.
 
-## Available Scripts
+![Color Generator App Screenshot](https://github.com/subhajitroycode/frontendmentor-manage-landing-page/assets/72935263/5add8d26-25d5-43e1-860a-386edd221142)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Choose a color using the color picker.
+- Input a hex value to select a specific color.
+- Generate shades and tints of the chosen color.
+- Preview the original color along with its shades and tints.
+- Copy the hex values of generated colors to the clipboard.
+- User-friendly interface and responsive design.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Libraries Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Color Generator App utilizes the following libraries:
 
-### `npm test`
+1. **values.js**: This library is used to generate shades and tints of colors. It allows the app to calculate a range of colors that are lighter or darker than the original color.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **react-toastify**: This library is employed to display toast notifications. Toast notifications provide feedback to the user when they perform actions such as copying a color's hex value. It enhances the user experience by providing unobtrusive notifications.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the Color Generator App locally on your machine, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone this repository to your local machine using:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone https://github.com/subhajitroycode/color-generator-app
+   ```
 
-### `npm run eject`
+2. Navigate to the project directory
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   cd color-generator-app
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install the project dependencies using npm or yarn:
+   
+   ```bash
+   npm install 
+   # or
+   yarn install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start the development server:
+   
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Open your web browser and go to `http://localhost:3000` to see the Color Generator App in action.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Open the Color Generator App in your web browser.
+2. Use the color picker to choose a color or enter a hex value manually.
+3. Click the "Generate" button to generate shades and tints of the selected color.
+4. Explore the generated colors and their hex values.
+5. Click on a color's hex value to copy it to your clipboard.
+6. Enjoy experimenting with different shades and tints of colors!
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions to the Color Generator App are welcome! If you find any issues or have ideas for enhancements, feel free to open an issue or submit a pull request in the [GitHub repository](https://github.com/subhajitroycode/color-generator-app).
 
-### Analyzing the Bundle Size
+## Connect with Me
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Follow me on [Instagram](https://www.instagram.com/subhajitroycode.eth/)
+- Connect with me on [LinkedIn](https://www.linkedin.com/in/subhajitroycode/)
+- Follow me on [Twitter](https://twitter.com/subhajitroycode)
+- Follow me on [Thread](https://www.threads.net/@subhajitroycode.eth)
